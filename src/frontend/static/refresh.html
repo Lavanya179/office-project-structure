@@ -1,0 +1,9 @@
+<html>
+<head></head>
+<body>
+<div id="app"></div>
+<script type="application/javascript">
+    window.parent.postMessage({type: "refresh_token", hash: window.location.hash.substring(1)}, '*')
+</script>
+</body>
+</html>
